@@ -11,7 +11,7 @@ Built with *Streamlit, **LangChain, and **Google Generative AI*.
 ## ⚙️ Setup
 1. Clone the repository
 2. Create .env file and add your API keys:
-GOOGLE_API_KEY = "AIzaSyAQhMIXoGwgJWFJ4slIw6zVd3dN7Z6OuuQ"
-NEWS_API_KEY = "3ca14c9fadf64097a3376e69ad2092b9"
+GOOGLE_API_KEY = API KEY HERE
+NEWS_API_KEY = API KEY HERE
 3. install dependencies: pip install -r requirements.txt
 4. run the app: streamlit run news.py
