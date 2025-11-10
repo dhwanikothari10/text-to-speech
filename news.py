@@ -3,12 +3,15 @@ import requests
 from langchain_google_genai import ChatGoogleGenerativeAI
 from gtts import gTTS
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-NEWS_API_KEY = os.getenv("NEWS_API_KEY")
+#GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+#NEWS_API_KEY = os.getenv("NEWS_API_KEY")
+
+GOOGLE_API_KEY=st.secrets['GOOGLE_API_KEY']
+NEWS_API_KEY=st.secrets['NEWS_API_KEY']
 
 # --------------------- FUNCTIONS ---------------------
 
