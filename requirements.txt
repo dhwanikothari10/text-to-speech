@@ -2,3 +2,5 @@ streamlit
 requests
 gtts
 langchain-google-genai
+python-dotenv
+langchain
